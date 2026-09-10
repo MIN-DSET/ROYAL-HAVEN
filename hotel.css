@@ -1,0 +1,210 @@
+*{
+  margin:0;
+  padding:0;  
+}
+body{
+    background-image:url(bodyimage.jpg);
+    background-color: white;
+    padding: 10px;
+    background-size: cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-width: 100%;
+    height:700px;
+}
+
+header{
+    background-color: darkred;
+    color: khaki;
+     display:flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 30px;
+height:10px;
+border-radius:10px;
+width:94%;
+}
+nav ul{
+   display: flex;
+    gap: 120px;
+    list-style-type:none;
+justify-content:space-around;
+flex-direction: row-reverse;
+padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: khaki;
+}
+nav ul li a:hover{
+color: black;
+}
+header #logo{
+    color: black;
+}
+.lets h1{
+    color: khaki;
+}
+
+.lets details summary{
+    color: khaki;
+}
+.lets details p{
+    color: khaki;
+
+}
+.lets details a {
+    color:khaki;
+    text-decoration: none;
+}
+.done{
+background-image: url(crown.webp);
+height: 150px;
+width: 98%;
+}
+.done h2{
+color: khaki;
+padding:10px;
+
+}
+.done p{
+    font-size:30px;
+    color: khaki;
+}
+.done #one{
+    padding:10px;
+}
+.run button{
+    background-color: red;
+    height: 60px;
+    width: 50%;
+    border-radius:10px;
+    border: 2px solid black;
+}
+.three h2{
+    color:khaki;
+}
+.three #four{
+    background-color: rgba(255, 0, 0, 0.164);
+    padding: 15px;
+
+}
+.three #four img{
+    border-radius: 25px;
+    display:flex;
+gap:50px;
+justify-content: space-between;
+    padding: 15px;
+
+}
+.three #four h4{
+    color: khaki;
+    font-size:30px;
+}
+.three #four p{
+    color: khaki;
+    font-size: 25px;
+    margin:10px;
+    padding: 15px;
+
+}
+.last {
+    background-color: black;
+    height: 300px;
+}
+.last h4{
+    color: khaki;
+    font-size: 45px;
+    padding: 15px;
+}
+.last p{
+    color: white;
+    padding: 10px;
+     font-size: 25px;
+}
+#btn{
+    width: 50%;
+    height:70px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    color: khaki;
+}
+#btn label{
+    color: khaki;
+    padding: 10px;
+    font-size: 35px;
+}
+#btn input{
+    width: 200px;
+    height:70px;
+     background-color: darkred;
+    color: khaki;
+    border: 2px solid black;
+    border-radius:10px;
+    
+    gap:10px
+}
+
+
+
+
+
+
+@media(max-width:600px){
+
+    body {
+        padding: 5px;
+        width: auto;
+        height: auto;
+    }
+
+    header {
+        width: auto;
+        height: auto;
+        padding: 15px 8px;
+    }
+
+    #logo h2 {
+        font-size: 20px;
+    }
+
+    nav ul {
+        gap: 8px;
+        padding: 0;
+    }
+
+    nav ul li a {
+        font-size: 9px;
+    }
+
+    .lets h1 {
+        font-size: 25px;
+    }
+
+    .done {
+        width: 100%;
+        height: 150px;
+    }
+
+    .done h2 {
+        font-size: 20px;
+    }
+
+    .done p {
+        font-size: 20px;
+    }
+
+    .run {
+        display: flex;
+        gap: 5px;
+    }
+
+    .run button {
+        width: 50%;
+        height: 40px;
+        font-size: 10px;
+    }
+
+}
